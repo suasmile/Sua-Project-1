@@ -1,0 +1,504 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+
+}
+.container {
+    min-height: 8000px;
+    display: flex;
+}
+.box{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 36px;
+    position: absolute;
+    line-height: 42px;
+    font-family:'Times New Roman', Times, serif;
+    top: 450px;
+    left: 260px;
+    transform: rotate(-48.1deg);
+}
+
+.h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 36px;
+    position: absolute;
+    line-height: 42px;
+    font-family:'Times New Roman', Times, serif;
+    top: 1145px;
+    right: 280px;
+    transform: rotate(-48.1deg);
+}
+
+.byline1{
+    color: rgb(216, 216, 216);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 350px;
+    left: 613px;
+    transform: rotate(41.9deg);
+}
+.byline2{
+    color: rgb(216, 216, 216);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1140px;
+    right: 503px;
+    transform: rotate(41.9deg);
+    
+}
+.poemeng1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1500px;
+    left: 430px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 3s forwards;
+    opacity:0;
+}
+
+.poemkorean1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 1890px;
+    right: 460px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 3.5s forwards;
+    opacity:0;
+}
+
+.poemeng2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 2150px;
+    left: 325px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 4.5s forwards;
+    opacity:0;
+}
+
+
+.poemkorean2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 2250px;
+    right: 310px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 5s forwards;
+    opacity:0;
+}
+
+.poemeng3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 2495px;
+    left: 555px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 6s forwards;
+    opacity:0;
+}
+
+.poemkorean3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 2600px;
+    right: 470px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 6.5s forwards;
+    opacity:0;
+}
+
+.poemeng4{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 2808px;
+    left: 309px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 7.5s forwards;
+    opacity:0;
+}
+
+.poemkorean4{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 3015px;
+    right: 680px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 8s forwards;
+    opacity:0;
+}
+
+.poemeng5{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 3122px;
+    left: 398px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 9s forwards;
+    opacity:0;
+}
+
+
+.poemkorean5{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 3423px;
+    right: 460px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 9.5s forwards;
+    opacity:0;
+}
+
+.poemeng6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 3460px;
+    left: 275px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 10.5s forwards;
+    opacity:0;
+}
+
+.poemkorean6{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 3750px;
+    right: 680px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 11s forwards;
+    opacity:0;
+}
+
+.poemeng7{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 3845px;
+    left: 283px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 12s forwards;
+    opacity:0;
+}
+
+.poemkorean7{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 4067px;
+    right: 590px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 12.5s forwards;
+    opacity:0;
+}
+
+.poemeng8{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 4415px;
+    left: 493px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 13.5s forwards;
+    opacity:0;
+}
+
+.poemkorean8{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 4500px;
+    right: 590px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 14s forwards;
+    opacity:0;
+}
+
+.poemeng9{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 4630px;
+    left: 650px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 15s forwards;
+    opacity:0;
+}
+
+.poemkorean9{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 4830px;
+    right: 375px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 15.5s forwards;
+    opacity:0;
+}
+
+.poemeng10{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 4875px;
+    left: 408px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 16s forwards;
+    opacity:0;
+}
+
+.poemkorean10{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 5005px;
+    right: 220px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 16.5s forwards;
+    opacity:0;
+}
+
+.poemkorean11{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 5180px;
+    right: 480px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 17.5s forwards;
+    opacity:0;
+}
+
+.poemeng11{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 5188px;
+    left: 630px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 18.5s forwards;
+    opacity:0;
+}
+
+.poemeng12{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 5515px;
+    left: 625px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 19s forwards;
+    opacity:0;
+}
+
+.poemkorean12{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 5768px;
+    right: 287px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 19.5s forwards;
+    opacity:0;
+}
+
+.poemkorean13{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 6030px;
+    right: 680px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 20.5s forwards;
+    opacity:0;
+}
+.poemeng13{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 6080px;
+    left: 360px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 21.5s forwards;
+    opacity:0;
+}
+
+.poemkorean14{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 6335px;
+    right: 585px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 22s forwards;
+    opacity:0;
+}
+
+.poemeng14{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 6535px;
+    left: 428px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 23s forwards;
+    opacity:0;
+}
+
+.poemkorean15{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 6720px;
+    right: 715px;
+    transform: rotate(41.9deg);
+    animation: ani2 0.75s ease-out 22.5s forwards;
+    opacity:0;
+}
+
+.poemeng15{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 7045px;
+    left: 210px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 24s forwards;
+    opacity:0;
+}
+
+.poemkorean16{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 7025px;
+    right: 545px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 24.5s forwards;
+    opacity:0;
+}
+
+.poemkorean17{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 7100px;
+    right: 528px;
+    transform: rotate(-48.1deg);
+    animation: ani2 0.75s ease-out 25.5s forwards;
+    opacity:0;
+}
+.staircaseimg{
+    height:8000px;
+    position: relative;
+    object-fit: contain;
+}
+
+@keyframes ani2{
+    100%{
+        Opacity:1;
+    }
+}
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.7,.7)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 0.4s;
+}
+  
+.hidden {
+    opacity: 0;
+  }
+
+@media screen and (max-width: 768px) {}
